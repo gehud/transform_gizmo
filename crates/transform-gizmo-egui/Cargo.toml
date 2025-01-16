@@ -2,7 +2,7 @@
 name = "transform-gizmo-egui"
 description = "egui integration for transform-gizmo"
 version = "0.4.0"
-rust-version = "1.78.0"
+rust-version = "1.83.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 homepage = "https://github.com/urholaukkarinen/transform-gizmo"
@@ -19,6 +19,3 @@ egui = "0.30"
 
 [dev-dependencies]
 eframe = "0.30"
-
-[lints]
-workspace = true
