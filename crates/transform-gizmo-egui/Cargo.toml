@@ -1,24 +1,24 @@
 [package]
 name = "transform-gizmo-egui"
 description = "egui integration for transform-gizmo"
-version.workspace = true
-rust-version = "1.76.0"
-edition.workspace = true
-license.workspace = true
-homepage.workspace = true
-repository.workspace = true
-authors.workspace = true
+version = "0.4.0"
+rust-version = "1.78.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/urholaukkarinen/transform-gizmo"
+repository = "https://github.com/urholaukkarinen/transform-gizmo"
+authors = ["Urho Laukkarinen <urho.laukkarinen@gmail.com>"]
 categories = ["gui", "game-development", "game-engines"]
 keywords = ["gizmo", "egui"]
 readme = "../../README.md"
 include = ["../../LICENSE-APACHE", "../../LICENSE-MIT", "**/*.rs", "Cargo.toml"]
 
 [dependencies]
-transform-gizmo.workspace = true
-egui.workspace = true
+transform-gizmo = { path = "../transform-gizmo" }
+egui = "0.30"
 
 [dev-dependencies]
-eframe.workspace = true
+eframe = "0.30"
 
 [lints]
 workspace = true
