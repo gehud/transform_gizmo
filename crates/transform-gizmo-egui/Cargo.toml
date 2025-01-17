@@ -15,7 +15,7 @@ include = ["../../LICENSE-APACHE", "../../LICENSE-MIT", "**/*.rs", "Cargo.toml"]
 
 [dependencies]
 transform-gizmo = { path = "../transform-gizmo" }
-egui = "0.30"
+egui = "0.29"
 
 [dev-dependencies]
 eframe = "0.30"
