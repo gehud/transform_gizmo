@@ -22,22 +22,22 @@ include = [
 [dependencies]
 transform-gizmo = { path = "../transform_gizmo"}
 
-bevy_app = { version = "0.14", default-features = false }
-bevy_core = { version = "0.14", default-features = false }
-bevy_core_pipeline = { version = "0.14", default-features = false }
-bevy_reflect = { version = "0.14", default-features = false }
-bevy_math = { version = "0.14", features = ["mint"], default-features = false }
-bevy_render = { version = "0.14", default-features = false }
-bevy_input = { version = "0.14", default-features = false }
-bevy_asset = { version = "0.14", default-features = false }
-bevy_utils = { version = "0.14", default-features = false }
-bevy_pbr = { version = "0.14", default-features = false }
-bevy_ecs = { version = "0.14", default-features = false }
-bevy_log = { version = "0.14", default-features = false }
-bevy_window = { version = "0.14", default-features = false }
-bevy_transform = { version = "0.14", default-features = false }
+bevy_app = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_core = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_core_pipeline = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_reflect = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_math = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", features = ["mint"], default-features = false }
+bevy_render = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_input = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_asset = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_utils = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_pbr = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_ecs = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_log = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_window = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
+bevy_transform = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor", default-features = false }
 bytemuck = "1.5"
 uuid = "1.1"
 
 [dev-dependencies]
-bevy = "0.14"
+bevy = { git = "https://github.com/gehud/bevy.git", branch = "bevy_editor" }
